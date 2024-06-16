@@ -8,7 +8,7 @@ const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-10 text-center text-4xl "
+        className="my-10 text-center text-4xl"
       >
         Get in touch
       </motion.h1>
@@ -30,9 +30,9 @@ const Contact = () => {
           {CONTACT.phoneNo}
         </motion.p>
 
-        <link to={`mailto:${CONTACT.email}`} className="border-b">
+        <a  href={`mailto:${CONTACT.email}`} className="border-b cursor-pointer">
           {CONTACT.email}
-        </link>
+        </a>
       </div>
     </div>
   );

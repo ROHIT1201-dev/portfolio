@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `
-Sure! Here's a version of your profile tailored for a fresher:
+
 
 I am an enthusiastic aspiring full stack developer with a strong interest in building robust and scalable web applications. Through my academic projects and self-learning, I have developed skills in front-end technologies like React , as well as back-end technologies like Node.js,Express.js and MongoDB. My goal is to leverage my foundational knowledge and passion for technology to contribute to innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
