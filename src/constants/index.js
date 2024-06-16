@@ -39,7 +39,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "TailwindCSS", "Material UI", "Tailwind"],
-    link: "https://rohitcode.me/",
+    link: "https://rohitcodes.me/",
   },
   {
     title: "Admin Dashboard",

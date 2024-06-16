@@ -54,7 +54,7 @@ const Hero = () => {
               animate="visible"
               className="mt-8 flex items-center justify-center"
             >
-              <a href="/resume.pdf" download="resume.pdf">
+              <a href="/Rohit_resume.pdf" download="Rohit_resume.pdf">
                 <button className="w-40 h-12 bg-gradient-to-r from-pink-500 via-slate-700 to-purple-700 text-white text-2xl font-semibold rounded-lg">
                   Resume
                 </button>
