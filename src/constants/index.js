@@ -1,3 +1,4 @@
+import project0 from "../assets/projects/project-0.jpeg";
 import project1 from "../assets/projects/project-1.jpeg";
 import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.jpeg";
@@ -10,6 +11,21 @@ I am an enthusiastic aspiring full stack developer with a strong interest in bui
 export const ABOUT_TEXT = `I am a dedicated and versatile aspiring full stack developer with a passion for creating efficient and user-friendly web applications. Through my projects and self-learning, I have worked with technologies like React, Express.js, Node.js, TailwindCss, and MongoDB. My journey in web development started with a curiosity for how things work, and it has grown into a drive to learn and take on new challenges. I enjoy working in teams and solving complex problems to create high-quality solutions. Outside of coding, I like staying active and exploring new technologies.`;
 
 export const PROJECTS = [
+    {
+    title: "Inscribe",
+    image: project0,
+    description:
+      "Inscribe is a customizable blog platform that enables users to create, edit, and publish content seamlessly with Markdown support. Built with Hono and Vite, it offers fast performance, clean UI, and an intuitive writing experience.
+      "Hono",
+      "Postgres",
+      "Vite",
+      "Prisma",
+      "Typescript",
+      "Cloudflare",
+      
+    ],
+    link: "https://inscribe-rohit-rajs-projects-70afee96.vercel.app/",
+  },
   {
     title: "Real-Estate Website",
     image: project1,
@@ -39,7 +55,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "TailwindCSS", "Material UI", "Tailwind"],
-    link: "https://rohitcodes.me/",
+    link: "https://rohitcodess.vercel.app/",
   },
   {
     title: "Admin Dashboard",
