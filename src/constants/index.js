@@ -15,7 +15,8 @@ export const PROJECTS = [
     title: "Inscribe",
     image: project0,
     description:
-      "Inscribe is a customizable blog platform that enables users to create, edit, and publish content seamlessly with Markdown support. Built with Hono and Vite, it offers fast performance, clean UI, and an intuitive writing experience.
+      "Inscribe is a customizable blog platform that enables users to create, edit, and publish content seamlessly with Markdown support. Built with Hono and Vite, it offers fast performance, clean UI, and an intuitive writing experience.",
+    technologies: [
       "Hono",
       "Postgres",
       "Vite",
