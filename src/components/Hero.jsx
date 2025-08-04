@@ -28,7 +28,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent  ml-11 md:ml-0"
             >
               Full Stack Developer
             </motion.span>
@@ -52,9 +52,9 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="mt-8 flex items-center justify-center"
+              className="mt-8 flex items-center justify-center mb-5 md:mb-0"
             >
-              <a href="/Rohit_resume.pdf" download="Rohit_resume.pdf">
+              <a href="/rohit_resume.pdf" download="rohit_resume.pdf">
                 <button className="w-40 h-12 bg-gradient-to-r from-pink-500 via-slate-700 to-purple-700 text-white text-2xl font-semibold rounded-lg">
                   Resume
                 </button>

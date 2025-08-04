@@ -1,7 +1,9 @@
-import project1 from "../assets/projects/project-1.jpeg";
-import project2 from "../assets/projects/project-2.jpeg";
-import project3 from "../assets/projects/project-3.jpeg";
-import project4 from "../assets/projects/project-4.jpeg";
+import project1 from "../assets/projects/project-5.jpeg";
+import project2 from "../assets/projects/project-1.jpeg";
+import project3 from "../assets/projects/project-2.jpeg";
+import project4 from "../assets/projects/project-3.jpeg";
+import project5 from "../assets/projects/project-4.jpeg";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `
 
@@ -11,8 +13,39 @@ export const ABOUT_TEXT = `I am a dedicated and versatile aspiring full stack de
 
 export const PROJECTS = [
   {
-    title: "Real-Estate Website",
+    title: "PayZo",
+    image: project6,
+    description:
+      "Payzo is a web application enabling real-time UPI-based peer-to-peer and via phone number or QR code. With OTP-secured authentication, instant wallet transfers, and integrated bank on-ramp/off-ramp, it delivers a seamless payment experience. Built with modular development and CI/CD pipelines, it features intuitive dashboards for wallet balances, transaction history, and portfolio insights, ensuring speed, security, and reliability.",
+
+    technologies: [
+      "NextJs",
+      "Express",
+      "TypeScript",
+      "Prisma",
+      "Postgres",
+      "NeonDb",
+    ],
+    link: "https://payzoo.vercel.app/",
+  },
+  {
+    title: "Inscribe",
     image: project1,
+    description:
+      "A full-stack blog platform using React, Tailwind CSS, and Hono with Prisma and PostgreSQL. Deployed on Cloudflare Workers with JWT authentication for scalability. Integrated Gemini API for summaries and published reusable NPM modules.",
+    technologies: [
+      "Vite",
+      "TailwindCSS",
+      "Hono",
+      "Prisma",
+      "PostgreSQL",
+      "Cloudflare",
+    ],
+    link: "https://inscribe-7rjt4tax8-rohit-rajs-projects-70afee96.vercel.app/",
+  },
+  {
+    title: "Real-Estate Website",
+    image: project2,
     description:
       "A fully functional real-estate website with features like Google OAuth, CRUD operations, image uploading, image sliders, advanced search, and Redux for state management and persistence",
     technologies: [
@@ -27,7 +60,7 @@ export const PROJECTS = [
   },
   {
     title: "Task Management App",
-    image: project2,
+    image: project3,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Javascript"],
@@ -35,7 +68,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "TailwindCSS", "Material UI", "Tailwind"],
@@ -43,7 +76,7 @@ export const PROJECTS = [
   },
   {
     title: "Admin Dashboard",
-    image: project4,
+    image: project5,
     description:
       "Static Enterprise React Admin Dashboard with Material UI, Nivo Charts, Formik, Yup, FullCalendar, Data Grid, and comprehensive features.",
     technologies: ["react", "TailwindCSS", "Material UI", "FullCalendar"],

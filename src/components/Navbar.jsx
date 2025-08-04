@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="font-medium text-3xl mx-4 text-white">Rr</div>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl pointer">
-        <a href="https://github.com/rohit-raj25" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/ROHIT1201-dev/" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
         <a href="https://www.linkedin.com/in/rohit-raj10/" target="_blank" rel="noopener noreferrer">
